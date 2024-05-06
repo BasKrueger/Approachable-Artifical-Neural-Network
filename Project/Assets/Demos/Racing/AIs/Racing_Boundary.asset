@@ -10,18 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9ac8f07b15bef8344a2d216b1c77a3da, type: 3}
-  m_Name: Racing_Boundaries
+  m_Name: Racing_Boundary
   m_EditorClassIdentifier: 
   inputNeurons:
-  - bias: 0.20293485
+  - bias: 0.6834587
     <id>k__BackingField: 9
-  - bias: 0.44348934
+  - bias: 0.06387272
     <id>k__BackingField: 10
-  - bias: 0.07877177
+  - bias: 0.12211804
     <id>k__BackingField: 11
-  - bias: 0.19916241
+  - bias: 0.045645762
     <id>k__BackingField: 12
-  - bias: 0.07564167
+  - bias: 0.08490475
     <id>k__BackingField: 13
   outputNeurons:
   - bias: 0
@@ -31,15 +31,15 @@ MonoBehaviour:
   - bias: 0
     <id>k__BackingField: 16
   neurons:
-  - bias: 0.20293485
+  - bias: 0.6834587
     <id>k__BackingField: 9
-  - bias: 0.44348934
+  - bias: 0.06387272
     <id>k__BackingField: 10
-  - bias: 0.07877177
+  - bias: 0.12211804
     <id>k__BackingField: 11
-  - bias: 0.19916241
+  - bias: 0.045645762
     <id>k__BackingField: 12
-  - bias: 0.07564167
+  - bias: 0.08490475
     <id>k__BackingField: 13
   - bias: 0
     <id>k__BackingField: 14
@@ -50,81 +50,81 @@ MonoBehaviour:
   links:
   - <id>k__BackingField: 16
     active: 1
-    <weight>k__BackingField: 1
+    <weight>k__BackingField: 2.1289172
     <fromID>k__BackingField: 9
     <toID>k__BackingField: 14
   - <id>k__BackingField: 17
     active: 1
-    <weight>k__BackingField: 1
+    <weight>k__BackingField: 3.643025
     <fromID>k__BackingField: 9
     <toID>k__BackingField: 15
   - <id>k__BackingField: 18
     active: 1
-    <weight>k__BackingField: 1
+    <weight>k__BackingField: -7.7697487
     <fromID>k__BackingField: 9
     <toID>k__BackingField: 16
   - <id>k__BackingField: 19
     active: 1
-    <weight>k__BackingField: -1.2021918
+    <weight>k__BackingField: -0.0042624474
     <fromID>k__BackingField: 10
     <toID>k__BackingField: 14
   - <id>k__BackingField: 20
     active: 1
-    <weight>k__BackingField: 1
+    <weight>k__BackingField: 6.0015974
     <fromID>k__BackingField: 10
     <toID>k__BackingField: 15
   - <id>k__BackingField: 21
     active: 1
-    <weight>k__BackingField: 0.12486744
+    <weight>k__BackingField: 1
     <fromID>k__BackingField: 10
     <toID>k__BackingField: 16
   - <id>k__BackingField: 22
     active: 1
-    <weight>k__BackingField: 1
+    <weight>k__BackingField: 5.6005893
     <fromID>k__BackingField: 11
     <toID>k__BackingField: 14
   - <id>k__BackingField: 23
     active: 1
-    <weight>k__BackingField: 5.981239
+    <weight>k__BackingField: -1.7149367
     <fromID>k__BackingField: 11
     <toID>k__BackingField: 15
   - <id>k__BackingField: 24
     active: 1
-    <weight>k__BackingField: -0.1387229
+    <weight>k__BackingField: -4.029515
     <fromID>k__BackingField: 11
     <toID>k__BackingField: 16
   - <id>k__BackingField: 25
     active: 1
-    <weight>k__BackingField: -3.798274
+    <weight>k__BackingField: -2.4249668
     <fromID>k__BackingField: 12
     <toID>k__BackingField: 14
   - <id>k__BackingField: 26
     active: 1
-    <weight>k__BackingField: 1
+    <weight>k__BackingField: -0.7918763
     <fromID>k__BackingField: 12
     <toID>k__BackingField: 15
   - <id>k__BackingField: 27
     active: 1
-    <weight>k__BackingField: -3.2623625
+    <weight>k__BackingField: 5.1761885
     <fromID>k__BackingField: 12
     <toID>k__BackingField: 16
   - <id>k__BackingField: 28
     active: 1
-    <weight>k__BackingField: 1
+    <weight>k__BackingField: 4.7301397
     <fromID>k__BackingField: 13
     <toID>k__BackingField: 14
   - <id>k__BackingField: 29
     active: 1
-    <weight>k__BackingField: 1
+    <weight>k__BackingField: -2.4711738
     <fromID>k__BackingField: 13
     <toID>k__BackingField: 15
   - <id>k__BackingField: 30
     active: 1
-    <weight>k__BackingField: -3.0476332
+    <weight>k__BackingField: 3.6037061
     <fromID>k__BackingField: 13
     <toID>k__BackingField: 16
-  formatedSaveDate: 30.4.2024 | 15:09
-  fitness: -980
+  formatedSaveDate: 6.5.2024 | 16:53
+  fitness: 0
   inputNames:
   - Straight Forward
   - Middle left
