@@ -10,145 +10,133 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9ac8f07b15bef8344a2d216b1c77a3da, type: 3}
-  m_Name: Racing_Stripes
+  m_Name: Racing_Both
   m_EditorClassIdentifier: 
   inputNeurons:
-  - bias: 0.3270288
+  - bias: 0.44744617
     <id>k__BackingField: 9
-  - bias: 0.14869422
+  - bias: 0.08093739
     <id>k__BackingField: 10
-  - bias: 0.27294594
+  - bias: 0.2542887
     <id>k__BackingField: 11
-  - bias: 0.15726148
+  - bias: 0.06659521
     <id>k__BackingField: 12
-  - bias: 0.09406956
+  - bias: 0.15073255
     <id>k__BackingField: 13
   outputNeurons:
-  - bias: 0
+  - bias: 0.15770793
     <id>k__BackingField: 14
-  - bias: 0.050894946
+  - bias: 0
     <id>k__BackingField: 15
   - bias: 0
     <id>k__BackingField: 16
   neurons:
-  - bias: 0.3270288
+  - bias: 0.44744617
     <id>k__BackingField: 9
-  - bias: 0.14869422
+  - bias: 0.08093739
     <id>k__BackingField: 10
-  - bias: 0.27294594
+  - bias: 0.2542887
     <id>k__BackingField: 11
-  - bias: 0.15726148
+  - bias: 0.06659521
     <id>k__BackingField: 12
-  - bias: 0.09406956
+  - bias: 0.15073255
     <id>k__BackingField: 13
-  - bias: 0
+  - bias: 0.15770793
     <id>k__BackingField: 14
-  - bias: 0.050894946
+  - bias: 0
     <id>k__BackingField: 15
   - bias: 0
     <id>k__BackingField: 16
   - bias: 0
-    <id>k__BackingField: 35
-  - bias: 0
-    <id>k__BackingField: 58
+    <id>k__BackingField: 33
   links:
   - <id>k__BackingField: 16
     active: 1
-    <weight>k__BackingField: -3.3054476
+    <weight>k__BackingField: 1
     <fromID>k__BackingField: 9
     <toID>k__BackingField: 14
   - <id>k__BackingField: 17
     active: 1
-    <weight>k__BackingField: -0.6087067
+    <weight>k__BackingField: 1
     <fromID>k__BackingField: 9
     <toID>k__BackingField: 15
   - <id>k__BackingField: 18
     active: 1
-    <weight>k__BackingField: 9.546207
+    <weight>k__BackingField: 7.4685225
     <fromID>k__BackingField: 9
     <toID>k__BackingField: 16
   - <id>k__BackingField: 19
     active: 1
-    <weight>k__BackingField: -9.256497
+    <weight>k__BackingField: -7.349472
     <fromID>k__BackingField: 10
     <toID>k__BackingField: 14
   - <id>k__BackingField: 20
     active: 1
-    <weight>k__BackingField: 4.031537
+    <weight>k__BackingField: 8.587636
     <fromID>k__BackingField: 10
     <toID>k__BackingField: 15
   - <id>k__BackingField: 21
     active: 1
-    <weight>k__BackingField: -0.8717673
+    <weight>k__BackingField: -1.6392698
     <fromID>k__BackingField: 10
     <toID>k__BackingField: 16
   - <id>k__BackingField: 22
     active: 1
-    <weight>k__BackingField: 12.655357
+    <weight>k__BackingField: 5.904883
     <fromID>k__BackingField: 11
     <toID>k__BackingField: 14
   - <id>k__BackingField: 23
     active: 1
-    <weight>k__BackingField: -6.885505
+    <weight>k__BackingField: -7.6640115
     <fromID>k__BackingField: 11
     <toID>k__BackingField: 15
   - <id>k__BackingField: 24
     active: 1
-    <weight>k__BackingField: -4.2369714
+    <weight>k__BackingField: -3.1963863
     <fromID>k__BackingField: 11
     <toID>k__BackingField: 16
   - <id>k__BackingField: 25
     active: 1
-    <weight>k__BackingField: 6.2876844
+    <weight>k__BackingField: 2.2853181
     <fromID>k__BackingField: 12
     <toID>k__BackingField: 14
   - <id>k__BackingField: 26
     active: 1
-    <weight>k__BackingField: 6.0963864
+    <weight>k__BackingField: 1
     <fromID>k__BackingField: 12
     <toID>k__BackingField: 15
   - <id>k__BackingField: 27
     active: 1
-    <weight>k__BackingField: 1
+    <weight>k__BackingField: -3.2119365
     <fromID>k__BackingField: 12
     <toID>k__BackingField: 16
   - <id>k__BackingField: 28
     active: 1
-    <weight>k__BackingField: 1.8385653
+    <weight>k__BackingField: 2.1362343
     <fromID>k__BackingField: 13
     <toID>k__BackingField: 14
   - <id>k__BackingField: 29
     active: 1
-    <weight>k__BackingField: -4.5174837
+    <weight>k__BackingField: 1.3510563
     <fromID>k__BackingField: 13
     <toID>k__BackingField: 15
   - <id>k__BackingField: 30
-    active: 0
-    <weight>k__BackingField: -3.384985
-    <fromID>k__BackingField: 13
-    <toID>k__BackingField: 16
-  - <id>k__BackingField: 67
-    active: 1
-    <weight>k__BackingField: -0.13581419
-    <fromID>k__BackingField: 9
-    <toID>k__BackingField: 35
-  - <id>k__BackingField: 68
-    active: 1
-    <weight>k__BackingField: -2.905333
-    <fromID>k__BackingField: 35
-    <toID>k__BackingField: 15
-  - <id>k__BackingField: 113
-    active: 1
-    <weight>k__BackingField: -2.8632255
-    <fromID>k__BackingField: 13
-    <toID>k__BackingField: 58
-  - <id>k__BackingField: 114
     active: 1
     <weight>k__BackingField: 1
-    <fromID>k__BackingField: 58
+    <fromID>k__BackingField: 13
     <toID>k__BackingField: 16
-  formatedSaveDate: 30.4.2024 | 15:07
-  fitness: 38800
+  - <id>k__BackingField: 63
+    active: 1
+    <weight>k__BackingField: 3.712568
+    <fromID>k__BackingField: 9
+    <toID>k__BackingField: 33
+  - <id>k__BackingField: 64
+    active: 1
+    <weight>k__BackingField: -0.026837349
+    <fromID>k__BackingField: 33
+    <toID>k__BackingField: 15
+  formatedSaveDate: 30.4.2024 | 14:45
+  fitness: 35830
   inputNames:
   - Straight Forward
   - Middle left
@@ -156,15 +144,15 @@ MonoBehaviour:
   - Left
   - Right
   inputTypes:
-  - ApproachableANN.RayVision2D, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+  - ApproachableANN.Senses.RayVision2D, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
     PublicKeyToken=null
-  - ApproachableANN.RayVision2D, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+  - ApproachableANN.Senses.RayVision2D, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
     PublicKeyToken=null
-  - ApproachableANN.RayVision2D, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+  - ApproachableANN.Senses.RayVision2D, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
     PublicKeyToken=null
-  - ApproachableANN.RayVision2D, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+  - ApproachableANN.Senses.RayVision2D, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
     PublicKeyToken=null
-  - ApproachableANN.RayVision2D, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+  - ApproachableANN.Senses.RayVision2D, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
     PublicKeyToken=null
   outputNames:
   - Turn Left
