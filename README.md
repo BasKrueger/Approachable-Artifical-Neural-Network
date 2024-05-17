@@ -7,28 +7,26 @@
 This Project was created for my final exam at the [S4G School for Games](https://www.school4games.net/).
 
 # Overview
-This project lowers the barrier of entry in three major ways:
-
- ### 1. Documentation
-The project comes with a [Documentation](https://github.com/BasKrueger/Approachable-Artifical-Neural-Network/blob/main/Documentation.pdf) that not only goes over how to make use of this project, but also provides deeper insight into the AI algorithm that's behind everything.
-
- ### 2. Usability
-The rather complex AI Algorithm gets boiled down to three very simple questions:
-1. What can the AI see?
-2. What can the AI do?
-3. When does the AI something good/bad?
-
-Once these three things are set, you are ready to start your first test drive.
  <p align="left">
     <img src="readme/trained.gif" alt="trained Car"><br>
 </p>
 
- ### 3. Editor Extensions
-Provided Editor Scripts help you to better understand the AI by visualizing various aspects, 
-giving you quick access to a varierty of functions as with inspector buttons, as well as giving your helpful reminder at various occasions.
+Artifical Neural Networks are a special kind of AI that work similar to human brains. This makes the AI very flexible, as that allows it to find gameplay patterns on its own. 
+This asset boils down the usage of this algorithm to the following:
+ 1. What can the AI see? (in this case 5 different distances in front of them)
+ 2. What can the AI do? (in this case turn left, turn right and control the speed)
+ 3. When does the AI do something good/bad? (in this case it gets punished for touching the track boundary and rewarded based on how far it got)
+
+And that's all you have to do. After you trained the AI you are able to save and manage them as simple scriptable object.
+For more informations check out the full [Documentation](https://github.com/BasKrueger/Approachable-Artifical-Neural-Network/blob/main/Documentation.pdf), which also goes over how exactly the Algorithm behind the magic works.
+
+# How to Run
+Simply download the reposetory and open the "Project" folder using at least Unity 2022.3.
+
+# Highlight editor extensions
  <p align="left">
     <img src="readme/Visualization.PNG" alt="Editor Visualization"><br>
 </p>
 
-# How to Run
-Simply download the reposetory and open the "Project" folder using at least Unity 2022.3
+The project makes extensive use of various editor tools. Various abstract topics like the internal mechanism of the AI are live visualized in the inspector, alongside handy buttons and other subtle features to make your life easier. 
+
