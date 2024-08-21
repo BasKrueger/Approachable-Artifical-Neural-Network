@@ -3,8 +3,10 @@
     <img src="readme/ANN_Banner_.png" alt="ANN Banner"><br>
 </p>
 
-"Approachable Artifical Neural Network" aims to drastically lower the barrier of entry for the Artifical Neural Network AI and NEAT learning Algorithm within the context of Unity Game Development.
-This Project was created for my final exam at the [S4G School for Games](https://www.school4games.net/).
+"Approachable Artifical Neural Network" aims to drastically lower the barrier of entry for the Artifical Neural Network AI and NEAT learning algorithm within the context of Unity Game Development.
+To achieve this goal I created my own implementation of the AI algorithm alongside wrapper classes, while supporting it with custom editor scripts and an exensive documentation.
+
+This Project was created as my Thesis at the [S4G School for Games](https://www.school4games.net/).
 
 # Overview
  <p align="left">
@@ -18,9 +20,9 @@ This asset boils down the usage of this algorithm to the following:
  3. When does the AI do something good/bad? (in this case it gets punished for touching the track boundary and rewarded based on how far it got)
 
 And that's all you have to do. After you trained the AI you are able to save and manage them as simple scriptable object.
-For more informations check out the full [Documentation](https://github.com/BasKrueger/Approachable-Artifical-Neural-Network/blob/main/Documentation.pdf), which also goes over how exactly the Algorithm behind the magic works.
+For more informations check out the full [Documentation](https://github.com/BasKrueger/Approachable-Artifical-Neural-Network/blob/main/Documentation.pdf), which also goes through the algorithm itself in full detail.
 
-# How to Run
+# How to run
 Simply download the reposetory and open the "Project" folder using at least Unity 2022.3.
 
 # Highlight editor extensions
@@ -28,5 +30,6 @@ Simply download the reposetory and open the "Project" folder using at least Unit
     <img src="readme/Visualization.PNG" alt="Editor Visualization"><br>
 </p>
 
-The project makes extensive use of various editor tools. Various abstract topics like the internal mechanism of the AI are live visualized in the inspector, alongside handy buttons and other subtle features to make your life easier. 
+Aside its own implementation of the artifical neural network algorithm, this project also makes extensive use of editor extensions. 
+Those not only make it easier to use the algorithm, but it is also capable of visualizing any artifical neural network in real time using the Unity inspector.
 
